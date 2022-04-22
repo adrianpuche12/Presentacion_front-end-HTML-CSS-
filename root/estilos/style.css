@@ -147,9 +147,6 @@ li {
     background: #f3603b;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
     color: #ffffff;
 }
 
@@ -253,6 +250,9 @@ li {
     color: #b3b2b7;
     order: 1;
     flex-grow: 0;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(217,213,217,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(217,213,217,1);
+box-shadow: 10px 10px 5px 0px rgba(217,213,217,1);
 }
 
 /*comienzo section testimonios*/
@@ -910,7 +910,74 @@ li:hover {
     form {
         width: 375px;
     }
+
+    .parr-div-elemento1-section2 {
+        font-size: 13px;
+        text-align: center;
+    }
 }
+
+
+@media (max-width: 320px) {
+    .title-home {
+        width: 320px;
+       margin-bottom: 70px;
+    }
+    .img-home2{
+        margin-bottom: 70px;
+    }
+    .parr-home{
+        width: 320px;
+        margin-left: 0%;
+        text-align: center;
+    }
+    .parr-section2{
+        width: 320px;  
+        margin: 0%;
+    }
+    #Copyright{
+        width: 320px;  
+    }
+    .social-media-container{
+        width: 320px; 
+    }
+    form{
+        width: 320px; 
+    }
+    #menu{
+        width: 320px;   
+    }
+    #text-section4{
+        width: 320px; 
+        font-size: 30px;
+
+    }
+    .parr-art-testimonio{
+        width: 320px;
+    }
+    .art1{
+        width: 320px; 
+    }
+    .parr-div-elemento1-section2{
+        width: 320px; 
+        margin: 0%;
+    }
+    .title-div-elemento1-section2{
+        width: 320px; 
+        margin: 0%;
+    }
+
+    .parr-div-elemento1-section2 {
+        width: 315px;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .butt-art-section2{
+        margin-bottom: 18px;
+    }
+}
+
 
 
 /*fin de media query con los estilos en modo mobile*/
